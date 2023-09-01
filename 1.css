@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    margin: 0;
+    font-family: 'Inter';
+}
+header{
+    background: #67E2FD;
+    height: 263px; 
+}
+.subscribe{
+    border-bottom: black 2px solid;
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+h1{
+    margin: 0;
+
+}
+ .name, .email{
+    border-radius:20px ;
+    width: 244px;
+    height: 43px;
+}
+.button{
+    background-color: #FAFF00;
+    border-radius:20px ;
+    width: 244px;
+    height: 43px;
+}
+.button:hover{
+    font-size: 20px;
+    font-weight: 800;
+}
+.menu{
+    display: flex;
+    justify-content:space-around;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px;
+}
+nav>li:hover{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 100px;
+
+}
+li{
+    list-style: none;
+    margin-right: 300px;
+}   
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img{
+    width: 300px;
+    margin-top: 100px;
+}    
+footer{
+    background : lightgray;
+    height: 300px;
+    margin-top: 100px;
+    padding-top:100px;
+     
+    
+    
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 150%;  
+}
+a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+.footer2{
+    margin-left: 200px;
+     
+}
+.p1,.p2{
+    width: 300px;
+}
+.logo{
+    height:110px;
+    animation: tada 2s 5;
+}
+.logo:hover{
+    animation:flash 2s 5;
+}
+.img:hover{
+    transform: scale(1.5);
+}
+.name:focus{
+    background: lightgray;
+}
+.footer1>a:visited{
+    color:purple;
+}
+
+
+
+
